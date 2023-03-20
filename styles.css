@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(14, 97, 14);
+}
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: goldenrod ;
+}
+#message-el {
+    font-style: italic;
+}
+p {
+    color: white;
+    font-size: 3rem;
+}
+button {
+    color: #016f32;
+    text-transform: uppercase;
+    background: goldenrod;
+    border: 0;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 10px;
+}
+button:active {
+    background-color: rgb(182, 138, 28);
+}
